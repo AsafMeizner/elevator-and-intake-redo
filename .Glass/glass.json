@@ -1,0 +1,42 @@
+{
+  "NetworkTables": {
+    "Persistent Values": {
+      "open": false
+    },
+    "Transitory Values": {
+      "open": false
+    },
+    "transitory": {
+      "SmartDashboard": {
+        "Field": {
+          "open": true
+        },
+        "open": true
+      }
+    },
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Field": "Field2d"
+    },
+    "windows": {
+      "/SmartDashboard/Field": {
+        "Robot": {
+          "length": 0.9150000214576721,
+          "width": 0.9150000214576721
+        },
+        "image": "C:\\Users\\User\\Desktop\\PathPlanner-Windows (2)\\data\\flutter_assets\\images\\field23.png",
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables Settings": {
+    "mode": "Client (NT4)",
+    "serverTeam": "5951",
+    "visible": false
+  },
+  "NetworkTables View": {
+    "visible": false
+  }
+}
