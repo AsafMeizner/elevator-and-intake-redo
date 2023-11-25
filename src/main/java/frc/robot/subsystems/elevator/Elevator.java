@@ -121,8 +121,7 @@ public class Elevator extends SubsystemBase implements DefaultInternallyControll
 
   @Override
   public void periodic() {
-    board.addBoolean("can move", canMove());
-    board.addNum("pose", getElevatorExtension());
+    board.addNum("current position", getElevatorExtension());
 
     if (Intake.getInstance().isCubeDetected()) {
       midhight = ElevatorConstance.CubeMidPose;
