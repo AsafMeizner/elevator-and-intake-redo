@@ -41,7 +41,7 @@ public class RobotContainer {
 
                 DRIVER_PS4_CONTROLLER.povDown().whileTrue(new MotorCommand(Elevator.getInstance(), 0.3, 0));
 
-                DRIVER_PS4_CONTROLLER.touchpad().whileTrue(new MotorCommand(Intake.getInstance(), IntakeConstants.coneIntakePower, 0));
+                DRIVER_PS4_CONTROLLER.povUp().whileTrue(new MotorCommand(Intake.getInstance(), IntakeConstants.coneIntakePower, 0));
 
                 DRIVER_PS4_CONTROLLER.povLeft().whileTrue(new ResetElevator());
 
